@@ -30,7 +30,7 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list -->
 
 To run this project: 
-npm run dev
+npm run dev http://localhost:5173/
 
 features:
 -API call made to https://fakestoreapi.com/products which return 20 odd products.
