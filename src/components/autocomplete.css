@@ -1,0 +1,47 @@
+/* Styles for the input field */
+.autocomplete-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .clear-icon {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    cursor: pointer;
+  }
+  /* Styles for the suggestion dropdown */
+  .autocomplete-dropdown {
+    /* position: absolute; */
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for individual suggestion items */
+  .autocomplete-item {
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  /* Styles for the selected suggestion item */
+  .autocomplete-item.active {
+    background-color: #f1f1f1;
+  }
+  
+  /* Hover effect on suggestion items */
+  .autocomplete-item:hover {
+    background-color: #f9f9f9;
+  }
+
+ p {
+    margin: 0;
+ }
+  
